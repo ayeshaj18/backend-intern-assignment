@@ -2,7 +2,7 @@ const app = require('./app');
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  'mongodb+srv://ayesha:ayesha@cluster0.knsvpyr.mongodb.net/tasksdb'
+  'mongodb+srv://<user>:<password>@cluster0.knsvpyr.mongodb.net/tasksdb'
 )
 .then(() => {
   console.log('MongoDB connected');
